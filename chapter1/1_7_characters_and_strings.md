@@ -6,7 +6,7 @@ val cc = #"y"; (* Define character 'y' *)
 val n = 2;     (* We want to increment by 2, so it should wrap around to 'a' *)
 
 (* Wraps around when n causes cc to go beyond 'z' *)
-chr((ord(cc) + n - 97) mod 26 + 97);   
+val wrapAroundAlphabet = chr((ord(cc) + n - 97) mod 26 + 97);   
 ```
 
 ## 1.7.2
