@@ -2,8 +2,7 @@
 
 ## 1.9.1
 Find the Cartesian product of 
-$\overbrace{\{1,2\}}^{A} \times \overbrace{\{1,2\}}^{B}$
-
+$\overbrace{\lbrace 1,2 \rbrace}^{A} \times \overbrace{\lbrace 1,2 \rbrace}^{B}$
 $$
 \begin{array}{c|cc|c}
 B & A \times B & & \\
@@ -17,7 +16,7 @@ $$
 
 ## 1.9.2
 Find the Cartesian product of 
-$\overbrace{\{a,b,c,d\}}^{A} \times \overbrace{\{a,b,c\}}^{B}$
+$\overbrace{\lbrace a,b,c,d \rbrace}^{A} \times \overbrace{\lbrace a,b,c \rbrace}^{B}$
 
 $$
 \begin{array}{c|cccc|c}
@@ -33,7 +32,7 @@ $$
 
 ## 1.9.3
 Find the Cartesian product of 
-$\overbrace{\{a,b,c,d\}}^{A} \times \overbrace{\{1,2\}}^{B}$
+$\overbrace{\lbrace a,b,c,d \rbrace}^{A} \times \overbrace{\lbrace 1,2 \rbrace}^{B}$
 
 $$
 \begin{array}{c|cccc|c}
@@ -59,9 +58,9 @@ E.g. For the line $y = mx + b$
 
 $$
 \begin{align}
-L &= \{(x, mx + b)\ |\ x \in \mathbb{R}\}  \\
-L &= \{(c,y)\ |\ y \in \mathbb{R}\} \\
-L &= \{(x,k)\ |\ x \in \mathbb{R}\} \\
+L &= \lbrace (x, mx + b)\ |\ x \in \mathbb{R} \rbrace  \\
+L &= \lbrace (c,y)\ |\ y \in \mathbb{R} \rbrace \\
+L &= \lbrace (x,k)\ |\ x \in \mathbb{R} \rbrace \\
 \end{align}
 $$
 
@@ -75,7 +74,7 @@ $$
 $\mathbb{C}$ can be thought of as a Cartesian product of 
 $\mathbb{R} \times \mathbb{R}$, but with an imaginary component. In set-builder
 notation:
-$\{a + bi\ |\ a,b \in \mathbb{R} \land i^2 = -1\}$
+$\lbrace a + bi\ |\ a,b \in \mathbb{R} \land i^2 = -1 \rbrace$
 
 ## 1.9.7
 $\frac{3}{4}$ cannot be rewritten as the ordered pair $(3,4)$ nor more generally
