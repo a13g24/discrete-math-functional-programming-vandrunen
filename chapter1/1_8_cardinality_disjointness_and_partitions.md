@@ -3,7 +3,7 @@
 ## 1.8.1
 The cardinality is:
 
-$|\{0, 1, 2, \ldots, n\}| = n$
+$| \lbrace 0, 1, 2, \ldots, n \rbrace| = n$
 
 ## 1.8.2
 Prove the two are disjoint:
@@ -33,7 +33,8 @@ whereas $|A| - |B|$ is just subtracting the cardinalities of $A$ and $B$.
 
 ### Case where it is **True**:
 
-If $A = \{1, 2, 3\}$  and $B = \{2, 3\}$, then $|A - B| = |\{1\}| = 1$.
+If $A =  \lbrace 1, 2, 3 \rbrace$  and $B =  \lbrace 2, 3 \rbrace$, then 
+$|A - B| = | \lbrace 1 \rbrace| = 1$.
 
 Remember, this is first getting all the elements that are in $A$ but **not**
 in $B$.
@@ -49,11 +50,12 @@ be 1, which is the solution to the left-hand side.
 
 ### Case where it is **False**:
 
-If $A = \{1, 2, 3\}$ and $B = \{4, 5\}$, then $A \cap B = \emptyset$. In other
-words, the two sets are **disjoint**. This means:
+If $A =  \lbrace 1, 2, 3 \rbrace$ and $B =  \lbrace 4, 5 \rbrace$, then 
+$A \cap B = \emptyset$. In other words, the two sets are **disjoint**. 
+This means:
 
 $$
-|A - B| = |\{1, 2, 3\}| = 3 = |A|
+|A - B| = | \lbrace 1, 2, 3 \rbrace| = 3 = |A|
 $$
 
 But, the right-hand side yields:
@@ -65,10 +67,10 @@ $$
 Another case where this is false, is if the two sets are not disjoint, but $B$ 
 has some elements in it that are not in $A$ (i.e. $B \nsubseteq A$).
 
-E.g. If $A = \{1, 2, 3\}$ and $B = \{2, 3, 4\}$, then:
+E.g. If $A =  \lbrace 1, 2, 3 \rbrace$ and $B =  \lbrace 2, 3, 4 \rbrace$, then:
 
 $$
-|A - B| = |\{1\}| = 1 \neq 0 = 3 - 3 = |A| - |B|
+|A - B| = | \lbrace 1 \rbrace| = 1 \neq 0 = 3 - 3 = |A| - |B|
 $$
 
 In general, in order for this to work, $B \subseteq A$.
@@ -77,10 +79,10 @@ In general, in order for this to work, $B \subseteq A$.
 It's true that:
 
 $$
-\overbrace{\{1,2,3\}}^{A} \cap 
-\overbrace{\{2,3,4\}}^{B} \cap 
-\overbrace{\{3,4,5\}}^{C} \cap 
-\overbrace{\{4,5,6\}}^{D} = \emptyset
+\overbrace{ \lbrace 1,2,3 \rbrace}^{A} \cap 
+\overbrace{ \lbrace 2,3,4 \rbrace}^{B} \cap 
+\overbrace{ \lbrace 3,4,5 \rbrace}^{C} \cap 
+\overbrace{ \lbrace 4,5,6 \rbrace}^{D} = \emptyset
 $$
 
 But the sets are **not** pairwise disjoint. The reason being:
@@ -95,6 +97,6 @@ In order to be pairwise disjoint, *every pair* needs to be disjoint.
 Describe three distinct partitions of the set $\mathbb{Z}$, apart from the ones
 given in the section.
 
-1. The set of prime positive integers and the integer $\{2\}$.
+1. The set of prime positive integers and the integer $ \lbrace 2 \rbrace$.
 2. The set of negative integers and zero.
-3. $\{m,n \in \mathbb{Z}\ |\ m < 100 \land n> 100\}$
+3. $ \lbrace m,n \in \mathbb{Z}\ | m < 100 \land n> 100 \rbrace$

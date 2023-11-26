@@ -89,3 +89,91 @@ are:
    is undefined in $\mathbb{Q}$.
 
 ## 1.9.8
+This is a partition since all pairs of real numbers below $y = 3x + 2$ are 
+pairwise disjoint with all pairs of real numbers above that line. In other 
+words, 
+
+$$
+\lbrace (x, y)\ |\ x,y \in \mathbb{R} \land y < 3x + 2 \rbrace \cap
+\lbrace (x, y)\ |\ x,y \in \mathbb{R} \land y > 3x + 2 \rbrace = \emptyset
+$$
+
+## 1.9.9
+Yes this is a partition, since the sets are pairwise disjoint. In other words,
+
+$$
+\bigg( 
+    \overbrace{ \lbrace (x, y)\ |\ x,y \in \mathbb{R} \land x > 0 \rbrace \cap
+    \lbrace (x, y)\ |\ x,y \in \mathbb{R} \land y > 0 \rbrace }^{\text{QI}}
+\bigg)\ 
+\cap 
+\bigg(
+    \overbrace{
+    \mathbb{R}^2\ \backslash\ 
+    \underbrace{ \lbrace (x, y)\ |\ x,y \in \mathbb{R} \land x > 0 \rbrace \cap
+    \lbrace (x, y)\ |\ x,y \in \mathbb{R} \land y > 0 \rbrace }_{\text{QI}}
+    }^{\text{QII, QIII, QIV}}
+\bigg)
+= 
+\emptyset
+$$
+
+## 1.9.10
+This is not a partition. Counterexample:
+
+Let 
+$$
+\begin{align*}
+A &= \lbrace (x,0)\ |\ x \in \mathbb{R} \rbrace \\
+B &= \lbrace (0,y)\ |\ y \in \mathbb{R} \rbrace \\
+C &= \mathbb{R}^2\ \backslash\ A \cup B
+\end{align*}
+$$
+
+But, $A \cap B = \lbrace 0 \rbrace$. Therefore $A \cap B \cap C$ is not pairwise
+disjoint.
+
+## 1.9.11
+Let
+$$
+\begin{align*}
+S &= \text{Salad line}    \\
+E &= \text{Entree line}   \\
+B &= \text{Beverage line}
+\end{align*}
+$$
+
+Then, 
+$S \times E \times B = \lbrace (s,e,b)\ |\ s \in S, e \in E, b \in B \rbrace$
+which means we select a salad, an entree and a beverage and would thus constitute 
+the set of all possible meals.
+
+## 1.9.12
+```sml
+- (3, 5.4);
+val it = int * real
+```
+
+## 1.9.13
+```sml
+- (3, (#"x", #"y"), 12);
+val it = int * (char * char) * int
+```
+
+## 1.9.14
+```sml
+- ("discrete", #"m", #"a", #"t", #"h");
+val it = string * char * char * char * char
+```
+
+## 1.9.15
+```sml
+- ("discrete", (#"m", #"a", #"t", #"h"));
+val it = string * (char * char * char * char)
+```
+
+## 1.9.16
+```sml
+- (3, (2, (1, (8, 4)), 13), 7, 9);
+val it = int * (int * (int * (int * int)) * int) * int * int
+```
