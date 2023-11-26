@@ -105,7 +105,7 @@ $$
 \bigg( 
     \overbrace{ \lbrace (x, y)\ |\ x,y \in \mathbb{R} \land x > 0 \rbrace \cap
     \lbrace (x, y)\ |\ x,y \in \mathbb{R} \land y > 0 \rbrace }^{\text{QI}}
-\bigg)\ 
+\bigg) 
 \cap 
 \bigg(
     \overbrace{
@@ -113,15 +113,14 @@ $$
     \underbrace{ \lbrace (x, y)\ |\ x,y \in \mathbb{R} \land x > 0 \rbrace \cap
     \lbrace (x, y)\ |\ x,y \in \mathbb{R} \land y > 0 \rbrace }_{\text{QI}}
     }^{\text{QII, QIII, QIV}}
-\bigg)
-= 
-\emptyset
+\bigg) = \emptyset
 $$
 
 ## 1.9.10
 This is not a partition. Counterexample:
 
 Let 
+
 $$
 \begin{align*}
 A &= \lbrace (x,0)\ |\ x \in \mathbb{R} \rbrace \\
@@ -135,6 +134,7 @@ disjoint.
 
 ## 1.9.11
 Let
+
 $$
 \begin{align*}
 S &= \text{Salad line}    \\
