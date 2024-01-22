@@ -15,7 +15,7 @@ fun divide13by(0) = ~1.0
 ```sml
 datatype number = Int of int | Real of real;
 
-fun add(Int(m), Int(n)) = Int(m + n)
+- fun add(Int(m), Int(n)) = Int(m + n)
     | add(Int(n), Real(x)) = Real(real(n) + x)
     | add(Real(x), Int(n)) = Real(x + real(n));
 ```
@@ -24,4 +24,9 @@ fun add(Int(m), Int(n)) = Int(m + n)
 ```sml
 fun divideAll(0, d) = (0, 0, 0.0)
     | divideAll(n, d) = (n div d, n mod d, real(n) / real(d));
+```
+
+## 1.11.5
+```sml
+
 ```
